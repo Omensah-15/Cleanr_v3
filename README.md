@@ -24,15 +24,6 @@ cleanr messy_data.csv clean_data.csv --trim --dedup --normalize --fill "nan"
 
 ---
 
-## Quick Start
-
-```bash
-pip install -e .
-cleanr data.csv
-```
-
----
-
 ## Features
 
 | Capability | Details |
