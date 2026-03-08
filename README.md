@@ -13,7 +13,7 @@ For full installation instructions, feature reference, and working examples, vis
   <img src="https://github.com/Omensah-15/CleanR-v3/blob/2e38d9a7fe8e1defb8abf56168a4c59671d38ac2/docs/demo2.gif" alt="Demo" width="800">
 </div>
 
-## command
+### command
 
 ```bash
 cleanr messy_data.csv clean_data.csv --trim --dedup --normalize --fill "nan"
