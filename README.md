@@ -16,6 +16,12 @@ For full installation instructions, feature reference, and working examples, vis
 ### command
 
 ```bash
+# Clean messy_data.csv and save the result to clean_data.csv.
+# --trim       strips leading and trailing whitespace from all string columns
+# --dedup      removes exact duplicate rows
+# --normalize  renames all column headers to lowercase snake_case (e.g. "First Name" -> first_name)
+# --fill "nan" fills any missing/empty cells with the text "nan"
+
 cleanr messy_data.csv clean_data.csv --trim --dedup --normalize --fill "nan"
 ```
 
