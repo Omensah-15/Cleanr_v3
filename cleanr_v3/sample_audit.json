@@ -1,0 +1,168 @@
+{
+  "total_elapsed_s": 1.522,
+  "entry_count": 27,
+  "entries": [
+    {
+      "elapsed_s": 0.3453,
+      "plugin": "normalize_columns",
+      "action": "Normalized 13/15 column names to snake_case",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 0.6006,
+      "plugin": "trim_whitespace",
+      "action": "Trimmed and normalised whitespace in 2 string columns",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 0.6047,
+      "plugin": "remove_duplicates",
+      "action": "Removed 69 duplicate rows (2,070 -> 2,001)",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 97 nulls in 'account_balance' via median (fill=25304.97)",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 215 nulls in 'latitude' via knn_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 185 nulls in 'longitude' via knn_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 46 nulls in 'customer_id' via mode (fill=C00001)",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 1 nulls in 'first_name' via mode (fill=Aaaxw)",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 1 nulls in 'last_name' via mode (fill=Aammqwb)",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 44 nulls in 'email_address' via mode (fill=missing@)",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 268 nulls in 'phone_number' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 101 nulls in 'age' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 112 nulls in 'salary' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 140 nulls in 'join_date' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 560 nulls in 'country' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 237 nulls in 'status' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 184 nulls in 'score' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0325,
+      "plugin": "handle_missing",
+      "action": "Imputed 639 nulls in 'user_agent' via knn_cat_k5",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0961,
+      "plugin": "type_coercion",
+      "action": "Coerced 'age' -> Int64",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0961,
+      "plugin": "type_coercion",
+      "action": "Coerced 'salary' -> Int64",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0961,
+      "plugin": "type_coercion",
+      "action": "Coerced 'join_date' -> datetime64[ns]",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0961,
+      "plugin": "type_coercion",
+      "action": "Coerced 'country' -> category",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0961,
+      "plugin": "type_coercion",
+      "action": "Coerced 'status' -> category",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.0961,
+      "plugin": "type_coercion",
+      "action": "Coerced 'score' -> Int64",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.1001,
+      "plugin": "format_validator",
+      "action": "Flagged 157 (7.8%) invalid email values in 'email_address' -> '_invalid_email_address'",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.4266,
+      "plugin": "outlier_detector",
+      "action": "Flagged 30 (1.5%) outlier rows -> '_is_outlier' column",
+      "level": "INFO"
+    },
+    {
+      "elapsed_s": 1.4324,
+      "plugin": "memory_optimize",
+      "action": "Memory: 0.90 MB -> 0.90 MB (saved 0.00 MB, 0%)",
+      "level": "INFO"
+    }
+  ]
+}
