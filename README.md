@@ -16,13 +16,10 @@ For full installation instructions, feature reference, and working examples, vis
 ### command
 
 ```bash
-# Clean messy_data.csv and save the result to clean_data.csv.
-# --trim       strips leading and trailing whitespace from all string columns
-# --dedup      removes exact duplicate rows
-# --normalize  renames all column headers to lowercase snake_case (e.g. "First Name" -> first_name)
-# --fill "nan" fills any missing/empty cells with the text "nan"
-
-cleanr messy_data.csv clean_data.csv --trim --dedup --normalize --fill "nan"
+# One command. No configuration. CleanR inspects your data, fixes column names,
+# strips whitespace, removes duplicates, fills missing values, corrects data types,
+# and scores your data quality — all automatically.
+cleanr messy_data.csv
 ```
 
 - Before: [messy_data.csv](https://github.com/Omensah-15/CleanR-v3/blob/60202d590931d30e0fa7504f0283ac953a6f5510/docs/messy_data.csv)
