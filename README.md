@@ -26,7 +26,7 @@ cleanr messy_data.csv clean_data.csv --trim --dedup --normalize --fill "nan"
 ```
 
 - Before: [messy_data.csv](https://github.com/Omensah-15/CleanR-v3/blob/60202d590931d30e0fa7504f0283ac953a6f5510/docs/messy_data.csv)
-- After: [clean_data.csv](https://github.com/Omensah-15/CleanR-v3/blob/60202d590931d30e0fa7504f0283ac953a6f5510/docs/clean_data.csv)
+- After: [messy_data_clean.csv](https://github.com/Omensah-15/CleanR-v3/blob/60202d590931d30e0fa7504f0283ac953a6f5510/docs/clean_data.csv)
 
 ---
 
