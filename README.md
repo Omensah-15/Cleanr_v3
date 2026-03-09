@@ -10,7 +10,7 @@ For full installation instructions, feature reference, and working examples, vis
 ## Demo
 
 <div align="center">
-  <img src="https://github.com/Omensah-15/CleanR-v3/blob/2e38d9a7fe8e1defb8abf56168a4c59671d38ac2/docs/demo2.gif" alt="Demo" width="800">
+  <img src="https://github.com/Omensah-15/Cleanr_v3/blob/ac9a0ee0fbaf263a06396a0133c55ecb5d8b83c5/docs/demov3.gif" alt="Demo" width="800">
 </div>
 
 ### command
